@@ -99,7 +99,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		margin:0;
-		 background: url(../img/bg.svg) repeat fixed center center; 
+		/* background: url(../img/bg.svg) repeat fixed center center; */
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
