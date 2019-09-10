@@ -784,8 +784,9 @@ text-align:left;	width:35%;
     position: relative;
 	margin-bottom:30px;
 }
+.item.disable{display: none;}
 
-
+/*
 .disable:before {
     background-color: #ffffff;
     content: "";
@@ -798,6 +799,7 @@ text-align:left;	width:35%;
     width: 100%;
     z-index: 12;
 }
+*/
 
 
 
