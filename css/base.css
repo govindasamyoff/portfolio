@@ -514,5 +514,71 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	.bgWhite{background:#ffffff;}
 	.bgBeige{background:#f6f0e4;}
 
+.snip{
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+.pl-5{
+    padding-left: 3px;
+}
+.pr-5{
+    padding-right: 3px;
+}
+.bg{
+    position: relative;
+     transition: all 0.5s ease;
+}
+.bg:hover{
+     transform: scale(1.2);
+}
+.bg:hover .over-lay-b{
+    background-color: rgba(0,0,0,0.2);
+}
+.bg .over-lay-b{
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.bg-1{
+    background-image: url(../img/snip1.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-height: 416px;
+    
+}
 	
 
+.bg-2{
+    background-image: url(../img/snip2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+     min-height: 205px;
+}
+.bg-3{
+     background-image: url(../img/snip3.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+     min-height: 205px;
+}
+.bg-4{
+    background-image: url(../img/snip4.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+     min-height: 205px;
+}
+.bg-5
+{
+    background-image: url(../img/snip5.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+     min-height: 205px;
+}
+.port-title{
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+}
