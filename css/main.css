@@ -1,22 +1,3 @@
-/*
-*	SPLIT (HTML version)
-* 	Copyright 2015
-* 	www.mutationmedia.net
-* 	Created by : mutationthemes
-*
-*/
-
-
-/* Table of Content
-==================================================
-1-Preloader
-2-Header
-3-Tabs sections : 
-  3/1-About tab
-  3/2-Portfolio tab
-  3/3-Blog tab
-  3/4-Contact tab
-4-Media queries
 
 
 
@@ -749,7 +730,7 @@ text-align:left;	width:35%;
 }
 
 
-.filter li {
+.m-filter li {
     display: inline-block;
     margin: 0 10px;
     position: relative;
@@ -759,12 +740,12 @@ text-align:left;	width:35%;
 
 
 
-.filter li a {
+.m-filter li a {
     color: #33373d;
 }
 
 
-.filter li a:hover {
+.m-filter li a:hover {
     color: #cd5353;
 }
 
@@ -772,7 +753,7 @@ text-align:left;	width:35%;
 
 
 
-.filter li a.active {
+.m-filter li a.active {
     color: #cd5353;
 }
 
@@ -1439,7 +1420,7 @@ span.meta-date{
 	.contact-info li{width:auto;padding-bottom:80px;display:block;text-align:center;}
 	.contact-info li:last-child{padding-bottom:0;}
 	.contact-info li .ico{top:-80px;}
-	.img-profile .name-profile {display:none;}
+	.img-profile .name-profile {}
 	
 }
 
@@ -1450,7 +1431,7 @@ span.meta-date{
 	.nopr {padding-right: 15px;}
 	.main-nav.tabbed ul li{float:left;width:25%;border-right:1px solid #26292e;border-bottom:none;}
 	.main-nav.tabbed ul li:last-child{border-right:none;border-bottom:none;}
-	.img-profile .name-profile {display:none;}
+	.img-profile .name-profile {}
 	.bottom-header{margin-bottom:10px;}
 	.info ul.info-list li .inf{left:-4px;}
 	.info ul.info-list{margin-bottom:10px;}
@@ -1468,14 +1449,15 @@ span.meta-date{
 
 
 /* Mobile Landscape Size -> Tablet Portrait size*/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .img-profile img{width: 100%}
 	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
 	.nopr {padding-right: 15px;}
 	.main-nav.tabbed ul li{float:left;width:25%;border-right:1px solid #26292e;border-bottom:none;}
 	.main-nav.tabbed ul li a{font-size:0;}
 	.main-nav.tabbed ul li:last-child{border-right:none;border-bottom:none;}
 	.main-nav.tabbed ul li a i {left: 0;text-align: center;width: 100%;}
-	.img-profile .name-profile {display:none;}
+	.img-profile .name-profile {}
 	.bottom-header{margin-bottom:10px;}
 	.info ul.info-list{margin-bottom:10px;}
 	.info ul.info-list li .inf{left:-2px;}
@@ -1483,7 +1465,7 @@ span.meta-date{
 	.skill .title{transform:rotate(0deg);-webkit-transform: rotate(0);position:static;margin-top:25px}
 	.block.service div{margin-bottom:30px;}
 	.block.service div:last-child{margin-bottom:0;}
-	.filter li{display:block; margin:10px 0;}
+	.m-filter li{display:block; margin:10px 0;}
 	.post-meta li{float:none;}
 	.post-title h1, .post-title a{line-height:30px;display:block;}
 	span.meta-date{margin-left:0; margin-top:10px; margin-bottom:10px;}
@@ -1511,7 +1493,7 @@ span.meta-date{
 	.main-nav.tabbed ul li a i {left: 0;text-align: center;width: 100%;}
 	.about .profile h1{font-size:25px;}
 	.about .profile h3{line-height:30px;font-size:20px;}
-	.img-profile .name-profile {display:none;}
+	.img-profile .name-profile {}
 	.bottom-header{margin-bottom:10px;}
 	.info ul.info-list{margin-bottom:10px;border-left:0;}
 	.info ul.info-list li {border-bottom: 1px solid #efefef;border-left: 1px solid #efefef;}
