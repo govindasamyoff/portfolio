@@ -494,6 +494,21 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	.bgWhite{background:#ffffff;}
 	.bgBeige{background:#f6f0e4;}
 
+
+@media (min-width:768px){
+    .pl-5{
+    padding-left: 3px;
+}
+.pr-5{
+    padding-right: 3px;
+}
+    
+}
+@media(max-width:767px){
+    .main-title, .content{
+        padding: 0px !important;
+    }
+}
 .snip{
     margin-bottom: 6px;
     overflow: hidden;
@@ -501,12 +516,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 .snip a{
     display: block;
 }
-.pl-5{
-    padding-left: 3px;
-}
-.pr-5{
-    padding-right: 3px;
-}
+
 .bg{
     position: relative;
      transition: all 0.5s ease;
