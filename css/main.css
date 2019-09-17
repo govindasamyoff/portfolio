@@ -785,8 +785,8 @@ text-align:left;	width:35%;
 
 
 .item a .desc {
-    background: rgba(6, 110, 171, 0.95) none repeat scroll 0 0;
-    height: 100%;
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    height: 90%;
     position: absolute;
     text-align: center;
     width: 100%;

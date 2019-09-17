@@ -591,3 +591,17 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 body.mfp-zoom-out-cur{
     overflow: hidden;
 }
+.item-title{
+    margin-top: 10px;
+    color: #000;
+    font-family: open_sansbold, sans-serif;
+    text-transform: capitalize;
+}
+.item-key{
+    color: #828282;
+    text-transform: capitalize;
+}
+.item img{
+    margin: 0 auto;
+    display: block;
+}
