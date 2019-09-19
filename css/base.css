@@ -606,3 +606,10 @@ body.mfp-zoom-out-cur{
     margin: 0 auto;
     display: block;
 }
+footer{
+    margin-bottom: 25px;
+    text-align: center;
+}
+footer a{
+    color:#6f6b6b;
+}
