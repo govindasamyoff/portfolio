@@ -1,0 +1,282 @@
+html{
+    font-size: 13px;
+}
+body{
+    font-size: 1rem;
+    color: #6d6d6d;
+    font-family: 'Open Sans', sans-serif;
+}
+.row{
+    margin:0;
+}
+h2{
+    color: #323232;
+    font-weight: 600;
+}
+.readmore a{
+    background-color: #f25d5d;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.readmore a:hover{
+    opacity: 0.9;
+}
+.split .readmore a i{
+    background-color: #f25d5d;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.idaikadar-sec{
+    background-color: #ededed;
+}
+.sun-sec{
+    background-color: #f6f6f6;
+}
+.about, .mantra, .siddhar-gallery{
+padding: 6rem 0rem;
+}
+.idaikadar-sec, .sun-sec{
+    padding: 4rem 1rem;
+}
+
+.mantra{
+    background-image: url(../images/astro-bg.png);
+    background-repeat: repeat;
+    background-size: auto;
+}
+.mantra-box{
+    border: 1px solid #eee;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+   -webkit-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.36);
+-moz-box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.36);
+box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.36);
+    
+}
+.mantra-box span{
+    float:left;
+    width:20%;
+    color: #000;
+    font-weight: 500;
+}
+.raasi{
+        padding-bottom: 1rem;
+    border: 1px solid #eee;
+    padding-top: 1rem;
+     color: #fff;
+    background-color: #42525f;
+    border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+}
+.raasi span{
+    float:left;
+    width:50%;
+    color: #fff;
+    font-weight: 500;
+   
+}
+mantr{
+    text-indent: 1rem;
+}
+.sp-sec{
+   
+    padding: 5rem 1rem;
+    color: #fff;
+    background-image: url(../images/strip.jpg);
+    background-size:auto;
+    
+}
+.act{
+    
+    color: #ffffff;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.act:hover{
+    text-decoration: none;
+    opacity: 0.8;
+    color: #fff;
+}
+.act i{
+    margin-right: 5px;
+}
+.act.map{
+    background-color: #468db0;
+}
+.act.download{
+    background-color: #47be77;
+}
+
+.photo-box{
+    border: 1px solid #262525;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+   
+    margin: 0 auto;
+   
+}
+.photo-box .btn{
+    color: #c4c4c4;
+    background-color: #767373;
+    margin-top: 1rem;
+    width: 100%;
+}
+.photo-box img{
+   border-radius: 0.5rem; 
+    
+}
+.ft-link{
+    padding-left: 0px;
+    
+}
+.ft-link li{
+    list-style: none;
+}
+.ft-menu-part {
+  background-color: #F9F9F9;
+  padding: 4% 0%;
+}
+.ft-menu-part .menu-title {
+  color: #2c2c2c;
+  font-size: 17px;
+  font-family: OpenSans-Semibold, sans-serif !important;
+}
+.ft-menu-part h4 {
+  font-size: 13px;
+  color: #2c2c2c;
+}
+.ft-menu-part h4 a {
+  color: #2c2c2c;
+}
+
+.menu-ul {
+  padding-left: 0;
+}
+.menu-ul li {
+  list-style: none;
+}
+.menu-ul li a {
+  color: #2c2c2c;
+  font-size: 12px;
+}
+.menu-ul li a:hover {
+  color: #000;
+}
+
+.ms-partner {
+  width: 200px;
+  margin-top: 30%;
+}
+
+.ft-hr {
+  height: 1px;
+  width: 100%;
+  background-color: #eaeaea;
+  margin: 10px 0px;
+}
+
+.ft-color {
+  color: #000 !important;
+}
+.banner img{
+    width:100%;
+}
+
+address {
+  font-size: 12px;
+}
+address span {
+  font-size: 13px;
+  font-family: OpenSans-Semibold, sans-serif !important;
+  margin-bottom: 5px;
+}
+
+.cpt {
+  font-size: 12px;
+}
+
+.bt-ul {
+  text-align: right;
+}
+.bt-ul li {
+  list-style: none;
+  display: inline-block;
+}
+.bt-ul li:after {
+  content: '|';
+  padding: 0px 5px;
+}
+.bt-ul li a {
+  font-size: 12px;
+  color: #2c2c2c;
+}
+
+.sm-icon {
+  margin-top: 10px;
+  padding-left: 0;
+}
+.sm-icon li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.sm-icon a.fb {
+  background-position: 0px 0px;
+    font-size: 2rem;
+}
+.sm-icon a.li {
+  background-position: -36px 0px;
+}
+
+.btn-ft-1 {
+  text-transform: capitalize;
+  background-color: #1E2844;
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: 70%;
+  font-size: 12px;
+  padding: 8px 0px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.btn-ft-1:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.btn-ft-2 {
+  text-transform: capitalize;
+  background-color: #FE4A2D;
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: 70%;
+  font-size: 12px;
+  padding: 8px 0px;
+  border-radius: 5px;
+}
+.btn-ft-2:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.siddhar-gallery{
+    background-color: #0d1015;
+}
+.siddhar-gallery h2{
+    color: #898888;
+}
