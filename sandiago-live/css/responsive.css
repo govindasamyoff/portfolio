@@ -382,6 +382,14 @@ header{display:none}
 
 
 @media (max-width:767px){
+    .responsive-logo a img{
+            max-width: 245px;
+    }
+    .responisve-bar {
+   
+    padding: 5px 10px;
+  
+}
 .theme-layout.boxed {
     width: 810px;
 }

@@ -12,7 +12,13 @@ footer .about img{
     padding: 3px;
     border-radius: 10px;
 }
-
+.map-img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    margin-top: 50px !important;
+}
 /* ======================TABLE OF CONTENT========================
 1. GENERAL STYLING
 2. TITLE STYLE
@@ -6941,7 +6947,7 @@ footer .widget .about .social-media{
 }
 .widget-blog-img img{
     width:97px;
-    height:97px;
+   
     -webkit-transition:all 0.3s linear;
     -moz-transition:all 0.3s linear;
     -ms-transition:all 0.3s linear;

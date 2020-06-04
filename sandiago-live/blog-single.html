@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
+
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<title>About Us</title>
+<title>Blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,9 +27,9 @@
 
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
-<link rel="stylesheet" href="css/owl-carousel.css" type="text/css" />
-
 <link rel="stylesheet" href="css/mediaelementplayer.min.css" />
+
+<link rel="stylesheet" href="css/owl-carousel.css" type="text/css" />
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 
@@ -53,6 +54,7 @@
 <body>
 
 <div class="theme-layout">
+
 
 
 <!--Common-->
@@ -200,26 +202,27 @@
 </div><!-- Responsive Menu -->
 
 <!--Common-->
-
 <div class="page-top">
 
 	<div class="parallax" style="background:url(images/parallax1.jpg);"></div>	
 
 	<div class="container"> 
 
-		<h1>ABOUT <span>US</span></h1>
+		<h1>Our<span> Blog</span></h1>
 
 		<ul>
 
 			<li><a href="index.html" title="">Home</a></li>
 
-			<li><a href="about.html" title="">About Us</a></li>
+			
+
+			<li><a href="blog-single.html" title="">Blog</a></li>
 
 		</ul>
 
 	</div>
 
-</div>
+</div><!--- PAGE TOP -->
 
 
 
@@ -233,31 +236,37 @@
 
 				<div class="col-md-12 column">
 
-					<div class="simple-text">
+					<div class="single-page">
 
-						<h3>WHO WE ARE AND WHAT IS OUR MISSION?</h3>
+						<img src="images/resource/sermon-single.jpg" alt="" />
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elt. Aioielit lorem, in lacinia libero lacina ac. Pellente sque vulputat eusmod, nulla dolor placerat eiest, et adipiscing urn aom. Aioielit lorem, in lacinia libero lacina ac. Pellente sque lacinia libero lacina ac. Pellente sque vulputa teuismod, nulla dolor placerat eiest, et adipiscing urna metuis. Moli viourem sit amet, Lorem ipsum dolor sit amet, elt. <a href="#" title="">Aioielit lorem</a>, in lacinia libero lacina ac. Pellente sque vulput ate uismod.</p>
+						<h2>Title</h2>
 
-						<a class="button" href="#" title="">DONATE NOW</a>
+						<div class="meta">
 
-					</div>
+							<ul>
 
-				</div>
 
-				<div class="col-md-6 column">
+								<li><i class="fa fa-calendar-o"></i> November 01, 2013</li>
 
-					<div class="video">
+								<li><i class="fa fa-user"></i> <a href="#" title="">Name of beneficiary</a></li>
 
-						<div class="video-img lightbox">
+							</ul>
 
-							<img src="images/resource/video.jpg" alt="" />
+							<img src="images/resource/author.jpg" alt="" />
 
-							<a href="http://vimeo.com/44867610" title="" data-poptrox="vimeo"><i class="fa fa-play"></i></a>
+						</div><!-- POST META -->
 
-						</div>
+					</div><!-- SERMON SINGLE -->
 
-					</div><!-- VIDEO -->
+					
+
+					<p>Aenean leo vene quam. Pellntes ique ornare sem eius modte venenatis vestibum. Cras mattis itugir purus. Aenean le vene quam. Pellntes ique ornare seeim eiusmodte venenatis vestibum. Cras mattis citur exquisitely fari then far purus. Aenean leo vene quam. Pellntes ique ornare sem eiusmodte venen. Et tollit utamur nam, dcum ullumo etiam velit. Ne scripserit. Sea ex utamur phaedrum, nisl no, no reque sensibus duo. Meini coposae, paulo mediocrem etiam negleg enur. Vis ut argum entum lorem ipsum dolor sit amet, consectetur adipscing elit. Nulla convallis egestas rhoncus. Don eofacilisis fermentum sem, ac viverra ante lucus vel. Donec vel maurs quam. Lorem ipsum dolor sit amet, consect etur adpiscing elit. Nulla convallis egestas rhoncus. Donec facilisis ferme ntum sem, ac viverra ante luctus vel. Donec vel maus quam.Lorem ipsum dolor sit amet, consectetur dipiscing elit. Nulla convallis egestas rhoncus. </p>
+
+								
+
+
+
 
 				</div>
 
@@ -267,9 +276,7 @@
 
 	</div>
 
-</section>
-
-
+</section>	
 
 
 
@@ -406,23 +413,19 @@
 
 	<script src="js/enscroll-0.5.2.min.js"></script>
 
-    <script src="js/owl.carousel.min.js"></script>
-
-	<script src="js/mediaelement-and-player.min.js"></script>
-
     <script src="js/script.js"></script>
 
     <script src="js/styleswitcher.js"></script>
 
 	<script type="text/javascript" src="js/jquery.downCount.js"></script> 
 
-
+    <script src="js/owl.carousel.min.js"></script>
 
     <script type="text/javascript">
 
-    $(document).ready(function() {
+		$(window).load(function(){
 
-		$(".pastors-carousel").owlCarousel({
+		$(".message-carousel").owlCarousel({
 
 			autoPlay: 5000,
 
@@ -430,47 +433,21 @@
 
 			singleItem : true,
 
-			transitionStyle : "fadeUp",		
+			transitionStyle : "goDown",		
 
-			navigation : false
+			navigation : true
 
-		}); /*** PASTORS MESSAGE CAROUSEL ***/
-
-
-
-		$(".team-carousel").owlCarousel({
-
-			autoPlay: 8000,
-
-			rewindSpeed : 3000,
-
-			slideSpeed:2000,
-
-			items : 4,
-
-			itemsDesktop : [1199,3],
-
-			itemsDesktopSmall : [979,2],
-
-			itemsTablet : [768,2],
-
-			itemsMobile : [479,1],
-
-			navigation : false,
-
-		}); /*** TEAM CAROUSEL ***/
+		}); /*** MESSAGE CAROUSEL ***/
 
 
 
-	});    
-
-
-
-				$('audio,video').mediaelementplayer();
+		});
 
 
 
     </script>
+
+
 
 
 
