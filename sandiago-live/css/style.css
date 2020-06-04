@@ -10155,7 +10155,9 @@ h4.new-title a:hover,
 }
 /*--- new update 15-03-2017 ---*/
 /*--- featured top video post ---*/
-
+.video-panel div{
+    margin-bottom: 30px;
+}
 .bg-video {
   float: left;
   position: relative;
